@@ -1,4 +1,4 @@
-package com.amirmohammed.ultras11jul.ui;
+package com.amirmohammed.ultras11jul.screen;
 
 import com.amirmohammed.ultras11jul.screen.BaseScreen;
 

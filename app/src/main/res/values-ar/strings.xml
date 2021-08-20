@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ultras11Jul</string>
+    <string name="login_screen">شاشة الدخول</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="register">تسجيل</string>
+    <string name="email_required">البريد الالكتروني مطلوب</string>
+    <string name="password_required">كلمة المرور مطلوبة</string>
+    <string name="account_created">تم انشاء الحساب</string>
+    <string name="login">دخول</string>
+    <string name="regitser_screen">شاشة التسجيل</string>
+    <string name="login_error_message">البريد الالكتروني او كلمة المرور خطأ</string>
+</resources>
