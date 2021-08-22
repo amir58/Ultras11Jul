@@ -9,7 +9,6 @@ import com.amirmohammed.ultras11jul.R;
 
 public class AddActivity extends AppCompatActivity {
     int counter = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

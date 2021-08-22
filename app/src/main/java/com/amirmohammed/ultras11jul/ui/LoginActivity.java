@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.amirmohammed.ultras11jul.R;
+import com.amirmohammed.ultras11jul.models.MyUser;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -41,8 +42,13 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (email.equals("amir@gmail.com") && password.equals("123456")) {
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+
+            MyUser myUser = new MyUser("1","Amir", email, 20);
+
+
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             intent.putExtra("email", email);
+            intent.putExtra("user", myUser);
             startActivity(intent);
 
         } else {

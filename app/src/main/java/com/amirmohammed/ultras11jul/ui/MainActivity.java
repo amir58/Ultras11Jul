@@ -11,6 +11,7 @@ import com.amirmohammed.ultras11jul.R;
 import com.amirmohammed.ultras11jul.human.Days;
 import com.amirmohammed.ultras11jul.human.Human;
 import com.amirmohammed.ultras11jul.human.MyStudent;
+import com.amirmohammed.ultras11jul.models.MyUser;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -27,7 +28,13 @@ public class MainActivity extends AppCompatActivity {
         String email = getIntent().getStringExtra("email");
 
         textViewEmail.setText(email);
+
+        MyUser myUser = (MyUser) getIntent().getSerializableExtra("user");
+
+        System.out.println(myUser.getAge());
+        System.out.println(myUser.getName());
     }
+
 
 
 

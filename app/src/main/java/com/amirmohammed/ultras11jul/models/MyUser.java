@@ -1,6 +1,8 @@
 package com.amirmohammed.ultras11jul.models;
 
-public class MyUser {
+import java.io.Serializable;
+
+public class MyUser implements Serializable {
     // accessModifier nonAccessModifiers dataType name
     private final String id;
     private String name;
