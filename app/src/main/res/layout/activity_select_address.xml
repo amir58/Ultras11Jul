@@ -5,27 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="3"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.SelectAddressActivity">
 
-    <TextView
-        android:id="@+id/main_screen_tv_email"
+    <EditText
+        android:id="@+id/et_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="@dimen/_10sdp"
-        android:text="Email"
-        android:textSize="@dimen/_22ssp"
-        android:textStyle="bold" />
+        android:layout_margin="10dp"
+        android:hint="Address" />
 
     <Button
-        android:id="@+id/btn_address"
-        android:layout_margin="@dimen/_10sdp"
-        android:textSize="@dimen/_12ssp"
-        android:text="Select address"
-        android:onClick="openSelectAddress"
+        android:onClick="confirmAddress"
+        android:layout_margin="10dp"
+        android:text="Confirm address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>
-

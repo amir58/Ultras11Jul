@@ -4,12 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AddActivity">
+    tools:context=".ui.AddActivity"
+    android:orientation="vertical">
 
     <Button
         android:layout_margin="10dp"
         android:text="Plus"
         android:onClick="onButtonPressed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_languages"
+        android:layout_margin="10dp"
+        android:text="Languages"
+        android:onClick="onLanguagesClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="@dimen/_10sdp"
+        android:text="Alert dialog"
+        android:onClick="alert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
